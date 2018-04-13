@@ -13,13 +13,10 @@ import { AddemployeeComponent } from './addemployee/addemployee.component';
 import { EditemployeeComponent } from './editemployee/editemployee.component';
 import { DeleteemployeeComponent } from './deleteemployee/deleteemployee.component';
 import { ViewemployeeComponent } from './viewemployee/viewemployee.component';
-import { EmployeesearchComponent } from './employeesearch/employeesearch.component';
-import { EmpeditorComponent } from './empeditor/empeditor.component';
-import { EmployeelistComponent } from './employeelist/employeelist.component';
 
 const appRoutes: Routes= [
   {path: '', component: LoginComponent},
-  {path: 'home', component: MainpageComponent},
+  {path 'home', component: MainpageComponent},
   {path:'findEmployee', component: ViewemployeeComponent},
   {path: 'editEmployee', component: EditemployeeComponent},
   {path: 'addEmployee', component: AddemployeeComponent},
@@ -37,10 +34,7 @@ const appRoutes: Routes= [
     AddemployeeComponent,
     EditemployeeComponent,
     DeleteemployeeComponent,
-    ViewemployeeComponent,
-    EmployeesearchComponent,
-    EmpeditorComponent,
-    EmployeelistComponent,
+    ViewemployeeComponent
   ],
   imports: [
     BrowserModule,
